@@ -1,0 +1,19 @@
+body.login {
+   box-sizing: border-box; 
+   display: grid;
+   place-items: center;
+   border: 1px solid red;
+   height: 100vh;
+   margin: 0;
+
+   form {
+       box-sizing: border-box;
+       border: 2px solid darkred;
+       padding: 1rem;
+       gap: 1rem;
+       label{
+         display: block;
+       }
+   }
+}
+
